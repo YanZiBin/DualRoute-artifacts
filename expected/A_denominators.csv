@@ -1,0 +1,4 @@
+device,planned,judgeable,unjudgeable,pass,fail,timeout_failures_retained
+High,168,167,1,134,33,5
+Mid,168,168,0,139,29,6
+Low,168,165,3,130,35,11

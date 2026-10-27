@@ -1,0 +1,11 @@
+pair_id,condition,mode,repeat,handled_requests,reject_slots,distinct_reject_texts,net_j_per_request,environment_block,charge_block,session_block
+M-C5-R01-A01,C5,hybrid,1,9,3,2,16.7148,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,initial_deployment_session
+M-C5-R02-A02,C5,hybrid,2,9,3,2,15.067200000000001,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C5-R03-A01,C5,hybrid,3,9,3,2,21.079799999999995,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C5-R04-A01,C5,hybrid,4,9,3,2,7.354800000000002,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C5-R05-A02,C5,hybrid,5,9,3,2,25.129999999999995,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C6-R01-A01,C6,slow_only,1,9,3,2,15.303400000000002,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,initial_deployment_session
+M-C6-R02-A02,C6,slow_only,2,9,3,2,21.3136,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C6-R03-A01,C6,slow_only,3,9,3,2,13.510600000000002,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C6-R04-A01,C6,slow_only,4,9,3,2,23.966399999999997,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210
+M-C6-R05-A01,C6,slow_only,5,9,3,2,23.7818,company_wifi_new_cloud_20260828,post_charge_resume_20260828_125546,deployment_session_145210

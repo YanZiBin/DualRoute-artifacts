@@ -1,0 +1,139 @@
+{
+  "roles": [
+    {
+      "source_role": "AutoGLM/main.py",
+      "original_sha256": "e86fc892f04aabec266fb03cf2eb0985dc8f0a1e7b0b4335b4695645de8249ac",
+      "supplement_sha256": "95c9ca4b17f8d3e7a3b25216d98b3e75578d1a61852f6d51fd63d3896eff0a80",
+      "unchanged": false
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/actions/handler.py",
+      "original_sha256": "737346ff49c74cff82ab4ac26c3256f9c6e88fc4adc55b5b3f6d86f3565bbfd7",
+      "supplement_sha256": "737346ff49c74cff82ab4ac26c3256f9c6e88fc4adc55b5b3f6d86f3565bbfd7",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/adb/device.py",
+      "original_sha256": "76d0eda661d746ff61eaaaa7202b51393b5f444e70f63578b47c6db9d248c04a",
+      "supplement_sha256": "76d0eda661d746ff61eaaaa7202b51393b5f444e70f63578b47c6db9d248c04a",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/adb/input.py",
+      "original_sha256": "77ffe621265def10c25992c87168df278114ae99d528058d80aa35abb93b9f8f",
+      "supplement_sha256": "77ffe621265def10c25992c87168df278114ae99d528058d80aa35abb93b9f8f",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/agent.py",
+      "original_sha256": "e31e651ee1adad4c89bc62595313eff6718c7d43c9175803c9a259daac43c68c",
+      "supplement_sha256": "e31e651ee1adad4c89bc62595313eff6718c7d43c9175803c9a259daac43c68c",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/apps.py",
+      "original_sha256": "26868d17698170f92de35f205a655a64476b234f086c5aca3ab7a6a084f01323",
+      "supplement_sha256": "26868d17698170f92de35f205a655a64476b234f086c5aca3ab7a6a084f01323",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/fast_path_apps.py",
+      "original_sha256": "9b2ee5945d5e9ea3e313dd257c80beddc3efda7ecc208e9d33e9d2fa53e1284c",
+      "supplement_sha256": "9b2ee5945d5e9ea3e313dd257c80beddc3efda7ecc208e9d33e9d2fa53e1284c",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/prompts.py",
+      "original_sha256": "e78ec332ef38f6729028bfcf3b44d6320bd2696ed0a3ff8357c1ecc767d4590e",
+      "supplement_sha256": "e78ec332ef38f6729028bfcf3b44d6320bd2696ed0a3ff8357c1ecc767d4590e",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/prompts_zh.py",
+      "original_sha256": "efab42c8528d8337497dcb2ec62f817aebc299e5da8bd8d378f3b55dd7e69564",
+      "supplement_sha256": "efab42c8528d8337497dcb2ec62f817aebc299e5da8bd8d378f3b55dd7e69564",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/route_prompt.py",
+      "original_sha256": "50ba6296ac65d44ae43d92e7733453ff38847dd70dd7231e8215f8cf51dfdb48",
+      "supplement_sha256": "50ba6296ac65d44ae43d92e7733453ff38847dd70dd7231e8215f8cf51dfdb48",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/route_prompt_v1836_contract.json",
+      "original_sha256": "63b5d35967d6e2a981989b8cb299e6ac2b7495e6aede3a1f2dec58895739ba77",
+      "supplement_sha256": "63b5d35967d6e2a981989b8cb299e6ac2b7495e6aede3a1f2dec58895739ba77",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/config/timing.py",
+      "original_sha256": "7cc4070909cd5d2d63bb015c42648177dbd286c37861342917117bce07e0ab7e",
+      "supplement_sha256": "7cc4070909cd5d2d63bb015c42648177dbd286c37861342917117bce07e0ab7e",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/experiment_logger.py",
+      "original_sha256": "0210b7514ba30fef411290b817520bb1e4dd4efa19512776936a8af20c5e15d2",
+      "supplement_sha256": "0210b7514ba30fef411290b817520bb1e4dd4efa19512776936a8af20c5e15d2",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/experiment_runtime.py",
+      "original_sha256": "06e46056f60e8af6846ff16044b1b70a2c1f8e4fff6899586aea8738443fa6ea",
+      "supplement_sha256": "c2609e44aeff355ee2d0138ae72bf012cac6a4dc253a1902ac898000bff28294",
+      "unchanged": false
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/fast_path.py",
+      "original_sha256": "2c3d58a8bd3968518fd6364a02a7f9d15bce426ce419c8bd5519457f4ed99435",
+      "supplement_sha256": "2c3d58a8bd3968518fd6364a02a7f9d15bce426ce419c8bd5519457f4ed99435",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/model/client.py",
+      "original_sha256": "7c1047fa5bfa033cd58c33d10a1ac27a59f699b356a8ed2d0df703c6c1e329a2",
+      "supplement_sha256": "7c1047fa5bfa033cd58c33d10a1ac27a59f699b356a8ed2d0df703c6c1e329a2",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/runtime_health.py",
+      "original_sha256": "c97c3aeaa17d76dbaff63693911c05f1ce0d7d47c9de7d5453fb36cf3c5f1756",
+      "supplement_sha256": "c97c3aeaa17d76dbaff63693911c05f1ce0d7d47c9de7d5453fb36cf3c5f1756",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/runtime_policy.py",
+      "original_sha256": "465653232a70a413c142b0a4711282957fed835a66c9f50d14d658828daecea5",
+      "supplement_sha256": "465653232a70a413c142b0a4711282957fed835a66c9f50d14d658828daecea5",
+      "unchanged": true
+    },
+    {
+      "source_role": "AutoGLM/phone_agent/semantic_contract.py",
+      "original_sha256": "e11b9698e89b9912d7b9dd043434d4c43a549f5a6d35a01d59b4acad0d3c3573",
+      "supplement_sha256": "e11b9698e89b9912d7b9dd043434d4c43a549f5a6d35a01d59b4acad0d3c3573",
+      "unchanged": true
+    },
+    {
+      "source_role": "device_adapter.py",
+      "original_sha256": "df5d87ec00529cf9e41cfd009e0596177be94b5d16c62612093c54ff93498560",
+      "supplement_sha256": "df5d87ec00529cf9e41cfd009e0596177be94b5d16c62612093c54ff93498560",
+      "unchanged": true
+    },
+    {
+      "source_role": "unified_acquisition.py",
+      "original_sha256": "fe72901b8afde67fa03b8bde8d595d81df7b43d5b6ba752509a969262c6c4d57",
+      "supplement_sha256": "0d7695ed82af0adec2f33582b2337cccc95dac97a8e163817f049b4eb341c83d",
+      "unchanged": false
+    }
+  ],
+  "unchanged_n": 18,
+  "changed_n": 3,
+  "old_application_snapshot_contains_new_foreground_observation": false,
+  "changes": {
+    "main.py": "post-native-terminal F1 foreground evidence invocation",
+    "experiment_runtime.py": "actual foreground observation event and duration",
+    "unified_acquisition.py": "independent three-batch authorization/order; no new arrival policy"
+  },
+  "full_live_source_bundled": false
+}

@@ -1,0 +1,19 @@
+device,metric,unit,launch_weight,workflow_weight,routed_interpolated,cloud_interpolated,difference_routed_minus_cloud,status
+High,net_mah_request,mAh/request,0.25,0.75,3.7152777777777777,3.222222222222222,0.49305555555555536,conditional interpolation; no current mixed measurement
+High,net_mah_request,mAh/request,0.5,0.5,3.375,3.166666666666667,0.20833333333333304,conditional interpolation; no current mixed measurement
+High,net_mah_request,mAh/request,0.75,0.25,3.034722222222222,3.1111111111111116,-0.07638888888888928,conditional interpolation; no current mixed measurement
+High,active_seconds_request,s/request,0.25,0.75,43.200006944444446,38.00334027777778,5.196666666666669,conditional interpolation; no current mixed measurement
+High,active_seconds_request,s/request,0.5,0.5,38.048569444444446,37.41184722222222,0.6367222222222253,conditional interpolation; no current mixed measurement
+High,active_seconds_request,s/request,0.75,0.25,32.897131944444446,36.82035416666666,-3.9232222222222184,conditional interpolation; no current mixed measurement
+Mid,net_mah_request,mAh/request,0.25,0.75,6.555555555555556,5.416666666666666,1.1388888888888893,conditional interpolation; no current mixed measurement
+Mid,net_mah_request,mAh/request,0.5,0.5,5.666666666666667,5.277777777777778,0.38888888888888906,conditional interpolation; no current mixed measurement
+Mid,net_mah_request,mAh/request,0.75,0.25,4.777777777777778,5.138888888888889,-0.36111111111111105,conditional interpolation; no current mixed measurement
+Mid,active_seconds_request,s/request,0.25,0.75,38.39372222222222,38.237125000000006,0.15659722222221806,conditional interpolation; no current mixed measurement
+Mid,active_seconds_request,s/request,0.5,0.5,31.037388888888888,35.22313888888889,-4.185750000000004,conditional interpolation; no current mixed measurement
+Mid,active_seconds_request,s/request,0.75,0.25,23.681055555555552,32.20915277777778,-8.528097222222227,conditional interpolation; no current mixed measurement
+Low,net_mah_request,mAh/request,0.25,0.75,7.3996805555555545,5.88848611111111,1.5111944444444436,conditional interpolation; no current mixed measurement
+Low,net_mah_request,mAh/request,0.5,0.5,6.053749999999999,5.489472222222222,0.5642777777777772,conditional interpolation; no current mixed measurement
+Low,net_mah_request,mAh/request,0.75,0.25,4.707819444444445,5.090458333333333,-0.3826388888888893,conditional interpolation; no current mixed measurement
+Low,active_seconds_request,s/request,0.25,0.75,67.18155555555556,56.666812500000006,10.514743055555556,conditional interpolation; no current mixed measurement
+Low,active_seconds_request,s/request,0.5,0.5,55.267,53.022125,2.2448749999999986,conditional interpolation; no current mixed measurement
+Low,active_seconds_request,s/request,0.75,0.25,43.352444444444444,49.3774375,-6.024993055555557,conditional interpolation; no current mixed measurement

@@ -1,0 +1,1026 @@
+[
+  {
+    "path": ".gitignore",
+    "input_package": "legacy",
+    "original_sha256": "6ac2986b5afe0cdbc6e1e917e8d577b28e2e2b5a0da0ad569f59f4ab4d0b40b9",
+    "release_sha256": "6ac2986b5afe0cdbc6e1e917e8d577b28e2e2b5a0da0ad569f59f4ab4d0b40b9",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "README.md",
+    "input_package": "legacy",
+    "original_sha256": "1bb5ea8f8b19fc688f3f4ee3b251a0cf951ae28a6706b45daf03ef6f0164e743",
+    "release_sha256": "296d0eb4f4dd7a35631f553e023ad94ea69712abf82ed188fe5a233ffc9b7949",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "analysis/_existing_statistics.py",
+    "input_package": "legacy",
+    "original_sha256": "15eb6ff283b3596453bc013663ec1b1983914efd47858459029a6e45198f35f4",
+    "release_sha256": "118ea50b40b3e241c42ed70bf17dbc54e9baa5a86a6ca94ecf57eab69ba071a6",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "analysis/_router_metrics.py",
+    "input_package": "legacy",
+    "original_sha256": "309823f2f9d137fae4b24151b8d4aa34828a1ad6c74cd4600ea89faaaf8b5469",
+    "release_sha256": "334e7a78d6ba315b5e02d4bb07cb8d0b41713bed7266e0a6f4b022e83d425c7c",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "analysis/verify_results.py",
+    "input_package": "legacy",
+    "original_sha256": "5f8d044a7a32bc7cd4f314f89eb0d8ed39e56b625ae38fa6b3e33e532aaaf194",
+    "release_sha256": "e06820e549dd676a5e5f22f2d29dcf7cadfdc9e0332144837fdd642263b8a198",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/LICENSE",
+    "input_package": "legacy",
+    "original_sha256": "af69329b4667040c498cc87dfcc165db1f5f9452fe2ad3024ad7eef63d467666",
+    "release_sha256": "af69329b4667040c498cc87dfcc165db1f5f9452fe2ad3024ad7eef63d467666",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/README.upstream.md",
+    "input_package": "legacy",
+    "original_sha256": "c5ef175d085b305069501b4ad3f613ca13e871f263a7c5878611a665067e6ff5",
+    "release_sha256": "c5ef175d085b305069501b4ad3f613ca13e871f263a7c5878611a665067e6ff5",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/main.py",
+    "input_package": "legacy",
+    "original_sha256": "e86fc892f04aabec266fb03cf2eb0985dc8f0a1e7b0b4335b4695645de8249ac",
+    "release_sha256": "7a5820ea7c3a58ad5ba54d24aa06626bb75ab3335dd7499ebf49ea8891658611",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "59ad503507a8de02eefe8d5ae8c2c52e0b33f2371977a1f1c6168ed3f71582d3",
+    "release_sha256": "987c71842b2c5ea231cd0da937ef8ce259b966161f7a567002e9f534c4e370de",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/actions/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "62200c7813158517e60ce7f4850ff51440525790297271cf434e601e303fc1e4",
+    "release_sha256": "62200c7813158517e60ce7f4850ff51440525790297271cf434e601e303fc1e4",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/actions/handler.py",
+    "input_package": "legacy",
+    "original_sha256": "737346ff49c74cff82ab4ac26c3256f9c6e88fc4adc55b5b3f6d86f3565bbfd7",
+    "release_sha256": "6cb2c121bbeb6b24f4cf99b9a1a29e86852a5a16de3ac560f8320bbd89c8a854",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/actions/handler_ios.py",
+    "input_package": "legacy",
+    "original_sha256": "d2ae3a469450d777ab69288cfa26c8782eac1ee55c5b552dbd74e4dfa107a07a",
+    "release_sha256": "d2ae3a469450d777ab69288cfa26c8782eac1ee55c5b552dbd74e4dfa107a07a",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/adb/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "c3708148646ff9c40f304f90f81c76b5b2ff5899296fd46a993da894d2bd4d9c",
+    "release_sha256": "c3708148646ff9c40f304f90f81c76b5b2ff5899296fd46a993da894d2bd4d9c",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/adb/connection.py",
+    "input_package": "legacy",
+    "original_sha256": "37041776ce5c38393a0662afb0039ddb8458db905adb85fc36bfa6eff3593f87",
+    "release_sha256": "37041776ce5c38393a0662afb0039ddb8458db905adb85fc36bfa6eff3593f87",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/adb/device.py",
+    "input_package": "legacy",
+    "original_sha256": "76d0eda661d746ff61eaaaa7202b51393b5f444e70f63578b47c6db9d248c04a",
+    "release_sha256": "fb1529ccadeb53f137c8ecf7b0e9b06ac2fa0819758d627740dd29c3905dda41",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/adb/input.py",
+    "input_package": "legacy",
+    "original_sha256": "77ffe621265def10c25992c87168df278114ae99d528058d80aa35abb93b9f8f",
+    "release_sha256": "77ffe621265def10c25992c87168df278114ae99d528058d80aa35abb93b9f8f",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/adb/screenshot.py",
+    "input_package": "legacy",
+    "original_sha256": "88f538adcda62b13681517fd8d967684f94c78a31611ac0ad140bbecce5c2d69",
+    "release_sha256": "f17a1e4eb70d48279156ba70dc967a9a0aebd429628520c7a910d7f358910a63",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/agent.py",
+    "input_package": "legacy",
+    "original_sha256": "75dabb109bcd300a78679db4ad11e7e9d44714f479f68091291a6f1c2fdeaf52",
+    "release_sha256": "9f87e616be2bfa292c99b1f04d28abb9aaa0fe6e48dfeced0162606003917073",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/agent_ios.py",
+    "input_package": "legacy",
+    "original_sha256": "bad81979edc38e1abc204f3ca5a4e1a452a567ae8bc18bccf0ad6d9f1b28b336",
+    "release_sha256": "bad81979edc38e1abc204f3ca5a4e1a452a567ae8bc18bccf0ad6d9f1b28b336",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/config/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "224014a264fb63a18dfdc05a505e56d6f6ef98551541064a5a8856f709cdbd10",
+    "release_sha256": "cc895f5bc6b64e42c9a1938c4a5bec140f3ba1a92c7f733df004be050ab5c535",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/apps.py",
+    "input_package": "legacy",
+    "original_sha256": "26868d17698170f92de35f205a655a64476b234f086c5aca3ab7a6a084f01323",
+    "release_sha256": "452bcea1b6b483050760f0e3cdb32d7e319bb44ac51c5812e692e1368a8de5e6",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/apps_harmonyos.py",
+    "input_package": "legacy",
+    "original_sha256": "5528ba7cb31102f61ec2d8f22bd3f23d0bae22f663a7dea9a8a8c195049ee2e6",
+    "release_sha256": "5528ba7cb31102f61ec2d8f22bd3f23d0bae22f663a7dea9a8a8c195049ee2e6",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/config/apps_ios.py",
+    "input_package": "legacy",
+    "original_sha256": "0ab3840e73f21bb4f6a85fe54b74839578e16c93f00ca23ad7fc8eae081eae77",
+    "release_sha256": "0ab3840e73f21bb4f6a85fe54b74839578e16c93f00ca23ad7fc8eae081eae77",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/config/fast_path_apps.py",
+    "input_package": "legacy",
+    "original_sha256": "9b2ee5945d5e9ea3e313dd257c80beddc3efda7ecc208e9d33e9d2fa53e1284c",
+    "release_sha256": "338d8012e9611543f5b15b4ffbc57d670556713f244f9d50bd5157ebfa06c416",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/i18n.py",
+    "input_package": "legacy",
+    "original_sha256": "fb1f320f9cb0c8aef1c23a08fa9398a8f95278877f5bd2a456398a6b2af7ea6d",
+    "release_sha256": "fb1f320f9cb0c8aef1c23a08fa9398a8f95278877f5bd2a456398a6b2af7ea6d",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/config/prompts.py",
+    "input_package": "legacy",
+    "original_sha256": "e78ec332ef38f6729028bfcf3b44d6320bd2696ed0a3ff8357c1ecc767d4590e",
+    "release_sha256": "2a0d16d03c6b3fa37a07240c77830fe9f4f00f3d649528c658973771f7018c20",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/prompts_en.py",
+    "input_package": "legacy",
+    "original_sha256": "0b26bdaf203f06d73035972a7a66dae7609023ae233dea84f2a559aa222c41e5",
+    "release_sha256": "a35f1b84268d65ae19cfbe83438d789ab4db333ee09d938ac83738777d90550d",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/prompts_zh.py",
+    "input_package": "legacy",
+    "original_sha256": "efab42c8528d8337497dcb2ec62f817aebc299e5da8bd8d378f3b55dd7e69564",
+    "release_sha256": "2a0d16d03c6b3fa37a07240c77830fe9f4f00f3d649528c658973771f7018c20",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/route_prompt.py",
+    "input_package": "legacy",
+    "original_sha256": "50ba6296ac65d44ae43d92e7733453ff38847dd70dd7231e8215f8cf51dfdb48",
+    "release_sha256": "8e71319b33e64e4252ff21de8ce53a248b736a7a8f155aef92a41d0397dfc0e3",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/config/route_prompt_v1836_contract.json",
+    "input_package": "legacy",
+    "original_sha256": "63b5d35967d6e2a981989b8cb299e6ac2b7495e6aede3a1f2dec58895739ba77",
+    "release_sha256": "63b5d35967d6e2a981989b8cb299e6ac2b7495e6aede3a1f2dec58895739ba77",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/config/timing.py",
+    "input_package": "legacy",
+    "original_sha256": "7cc4070909cd5d2d63bb015c42648177dbd286c37861342917117bce07e0ab7e",
+    "release_sha256": "4beb34503276d85f68c4c138bbd1ed8444ddbd46e3a6b58cb29705ee0d2099c1",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/device_factory.py",
+    "input_package": "legacy",
+    "original_sha256": "62a0da3d488899569b3735a6be2bcd6ba30969dd7c33ccfec19611b1f93dfcb5",
+    "release_sha256": "cc0e121806cdafd8a591e1227a62eafa9df87c605dc747225fe289a281537b48",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/experiment_logger.py",
+    "input_package": "legacy",
+    "original_sha256": "0210b7514ba30fef411290b817520bb1e4dd4efa19512776936a8af20c5e15d2",
+    "release_sha256": "d6450d8f996c937e47ec4c6993827b62266d32a062e448d6e799b1dd89f6fdbc",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/experiment_runtime.py",
+    "input_package": "legacy",
+    "original_sha256": "7836411be81d2a533d62957cce0bd895d1c32ed03c960374053295d12b026b37",
+    "release_sha256": "bd2ef7e6ff0eb8682dd8ebccdc1b0cfed06fd15bb92b64e774a768f9eda936e0",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/fast_path.py",
+    "input_package": "legacy",
+    "original_sha256": "2c3d58a8bd3968518fd6364a02a7f9d15bce426ce419c8bd5519457f4ed99435",
+    "release_sha256": "6e6ee0897538cc3745bb60fc8959a4cd82c83d5204dd17cc3cd754bf4898911c",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/hdc/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "e8e964eae8d7428bedce644b5e4e4c22a6f07dfc65792427a0762f08ee06d56c",
+    "release_sha256": "e8e964eae8d7428bedce644b5e4e4c22a6f07dfc65792427a0762f08ee06d56c",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/hdc/connection.py",
+    "input_package": "legacy",
+    "original_sha256": "203f24809754df860bab231e972ebf45e45f2cf8ecbba8d9d8b8f9bc82cf530c",
+    "release_sha256": "203f24809754df860bab231e972ebf45e45f2cf8ecbba8d9d8b8f9bc82cf530c",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/hdc/device.py",
+    "input_package": "legacy",
+    "original_sha256": "0d22dd55d30155ed8bcab31f3883df0cf66061b95266fab069874e0d47ed870c",
+    "release_sha256": "0d22dd55d30155ed8bcab31f3883df0cf66061b95266fab069874e0d47ed870c",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/hdc/input.py",
+    "input_package": "legacy",
+    "original_sha256": "bab9f20727a20018e83f62e202a02ae03218febeba8a33701972c5df06244794",
+    "release_sha256": "bab9f20727a20018e83f62e202a02ae03218febeba8a33701972c5df06244794",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/hdc/screenshot.py",
+    "input_package": "legacy",
+    "original_sha256": "547dc67d57ceda734ad25970e934fcfb10dbe427b66a5370f2b92cabcf8b824f",
+    "release_sha256": "60c649c29f187e87c1e0eac6d014f3ab5908cf996dd2298c1d75cb89a2f9e5a7",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/model/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "c3ac859256bd56852f5f9bd991359aed9e41839fe57c0f406a3acb8d9b1d2f6e",
+    "release_sha256": "c3ac859256bd56852f5f9bd991359aed9e41839fe57c0f406a3acb8d9b1d2f6e",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/model/client.py",
+    "input_package": "legacy",
+    "original_sha256": "7c1047fa5bfa033cd58c33d10a1ac27a59f699b356a8ed2d0df703c6c1e329a2",
+    "release_sha256": "7c3adbebfa519587c365c91233eac43d6ec9fce9109d35ecdac6028e8624daca",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/runtime_health.py",
+    "input_package": "legacy",
+    "original_sha256": "c97c3aeaa17d76dbaff63693911c05f1ce0d7d47c9de7d5453fb36cf3c5f1756",
+    "release_sha256": "0f4921a7bf28481e924d0e129ca26945bdcf5bbcd6e61c7e87f4824a93204838",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/runtime_policy.py",
+    "input_package": "legacy",
+    "original_sha256": "465653232a70a413c142b0a4711282957fed835a66c9f50d14d658828daecea5",
+    "release_sha256": "a9b99f4412502ed9c7f39ed29c43e47727d110d257930265f5784dec700b2f50",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/semantic_contract.py",
+    "input_package": "legacy",
+    "original_sha256": "e11b9698e89b9912d7b9dd043434d4c43a549f5a6d35a01d59b4acad0d3c3573",
+    "release_sha256": "676ec0110901c8ad168bf781337cbd1f08be18d972158ccc18f86cb26fec9f25",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/phone_agent/xctest/__init__.py",
+    "input_package": "legacy",
+    "original_sha256": "00a230a7a51fa1a35d0ef0ef780a7fbf98795103f153e3d04de7cca5f6b2ce3d",
+    "release_sha256": "00a230a7a51fa1a35d0ef0ef780a7fbf98795103f153e3d04de7cca5f6b2ce3d",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/xctest/connection.py",
+    "input_package": "legacy",
+    "original_sha256": "43bf7511393c4cb8b689770b82ffa9b3ebbebb1aaa21814fb597d681f58aeeb0",
+    "release_sha256": "43bf7511393c4cb8b689770b82ffa9b3ebbebb1aaa21814fb597d681f58aeeb0",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/xctest/device.py",
+    "input_package": "legacy",
+    "original_sha256": "507d8dbe3611d4ac3a5cff9a440ffc8b9127ddb37add493c90e6bd433277ab69",
+    "release_sha256": "507d8dbe3611d4ac3a5cff9a440ffc8b9127ddb37add493c90e6bd433277ab69",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/xctest/input.py",
+    "input_package": "legacy",
+    "original_sha256": "7640dbe0e0f9ea11a5c5d343881b08342dccae8fb6bbd10645092065adcc2fe8",
+    "release_sha256": "7640dbe0e0f9ea11a5c5d343881b08342dccae8fb6bbd10645092065adcc2fe8",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/phone_agent/xctest/screenshot.py",
+    "input_package": "legacy",
+    "original_sha256": "224090a74088505f422f642c47cbf21e767cef1bb46ba2b37345160b9ff3b5d6",
+    "release_sha256": "beabf464f90161fa9c2e4dac84241ea72b7e65dd1aa3b5eb2a3027554903a505",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/requirements.txt",
+    "input_package": "legacy",
+    "original_sha256": "2d7f0a20e1938ff8ae3a778dd8aa0334ccaf37426b0bd018f80e1b0ff9d30c19",
+    "release_sha256": "2d7f0a20e1938ff8ae3a778dd8aa0334ccaf37426b0bd018f80e1b0ff9d30c19",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/scripts/check_deployment_cn.py",
+    "input_package": "legacy",
+    "original_sha256": "5f4b1af90a189a9fbacc32adc38b7a83d6bbbd18cc87ca0da5543515a747841b",
+    "release_sha256": "5f4b1af90a189a9fbacc32adc38b7a83d6bbbd18cc87ca0da5543515a747841b",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/scripts/check_deployment_en.py",
+    "input_package": "legacy",
+    "original_sha256": "770a54332f134c1ffc53aae5d0c2666b3d94d23b3cc4336f6236a4566d112d91",
+    "release_sha256": "770a54332f134c1ffc53aae5d0c2666b3d94d23b3cc4336f6236a4566d112d91",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/scripts/export_merged_modelA.py",
+    "input_package": "legacy",
+    "original_sha256": "c6f6e2e6bea2328cbbfec3172b2c4443cd7bdce59da418c4385a764fb0c55cea",
+    "release_sha256": "11fd9cd6a451ceeb55fd5e5d293c2ff25eb758ebc52323303ca7777353548fd8",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/modelA_artifact_utils.py",
+    "input_package": "legacy",
+    "original_sha256": "c3f473c70019b887048b752cef834774a94762a101e4947ad6a5bff8b5002be1",
+    "release_sha256": "8d8557d6e6f079e3c64fdbff098e7776f5e882325ffc57cf3b1fe44e8be3d5d1",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_execute_service.py",
+    "input_package": "legacy",
+    "original_sha256": "9275430b1ca74b3438894d8294049e442c6d2c5ce7a297dc0721c6c06fc918a9",
+    "release_sha256": "cb76155451d2dd40df735396cd9c152d692deea39fc2c71bf644e00a5caaddcb",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_llama_regression.py",
+    "input_package": "legacy",
+    "original_sha256": "c66145cd327a98860ba11981697f1b33e71a13b572a63e399f151d1fa3ddccc0",
+    "release_sha256": "b8920f14c3259e34ff5e1d20801ff6581b9ddff1c23eda339c08488b55870a0c",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_llama_regression_cases.json",
+    "input_package": "legacy",
+    "original_sha256": "913578455d4e3bd4dd0d917fd94e7be521deb80f462fb2d043e9c3dd3b87cce6",
+    "release_sha256": "913578455d4e3bd4dd0d917fd94e7be521deb80f462fb2d043e9c3dd3b87cce6",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "application/scripts/termux_llama_route.py",
+    "input_package": "legacy",
+    "original_sha256": "d524ec998f60dd28c0e4841a216b3f0f942c28262cb34b1e22af72b67b0d9dfe",
+    "release_sha256": "266ab24208584137cb995169119a4bbe0ee185913a307cb78392517d4d3052d9",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_llama_route_service.py",
+    "input_package": "legacy",
+    "original_sha256": "b154c03289ffeb4b27ed9602c5d9b5f6434dd4844544ee0ccfbc5b1c0a0a7bba",
+    "release_sha256": "7ed46e1f647f95ffc119d747a9e1b239a9065863cce350f93afa09cd409466df",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_llama_route_worker/CMakeLists.txt",
+    "input_package": "legacy",
+    "original_sha256": "db3c1fb13a8796b3c4e918379649557443fab87c4e984b488265867a17524229",
+    "release_sha256": "0992e5bb7ec4dac287edc8b35e72baf37f0fc826d9afd94faa144001e85973c6",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/termux_llama_route_worker.cpp",
+    "input_package": "legacy",
+    "original_sha256": "52090a9cdf566303d0d0e8eb64beb0ebaa42390f406f5c482bc29a343f10acf2",
+    "release_sha256": "ed400361b3893b448be8c9fd9949d4191c860b94bdf8ea96dfc12b2c1c020162",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/scripts/validate_modelA_artifact.py",
+    "input_package": "legacy",
+    "original_sha256": "bca17ddfc699e88b390bf8bd6b273f7b9c9df4caaec6b849bfe84e9fc7e5ba33",
+    "release_sha256": "1b4e9a2308ec8b8a2c8c89b8958c0cb37438f58d959b1c00829e7a0b1f5cd59e",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/setup.py",
+    "input_package": "legacy",
+    "original_sha256": "ee4c874f559753de8980a121ab0d9ffc2ecee0b2d88bf0b4fd2954c39b5f5ef4",
+    "release_sha256": "0d9884cfe2629bbcac6020961e771effb4ecf7826d9fa061b9a5cf02bc9baae6",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_adb_launch.py",
+    "input_package": "legacy",
+    "original_sha256": "9f30193535a62ff811dacb15bf13a27b93480cd3828f95a30f408cedfd4d70a0",
+    "release_sha256": "867ede3d8d4161d5ff0e7ac2273d693a7101ea9a92965bf1106f5c27e135b222",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_agent_keyboard_session.py",
+    "input_package": "legacy",
+    "original_sha256": "63414be99c5d63056cce831ff0aa18ac25004d167d25e391b6e92b78248d006a",
+    "release_sha256": "92e6d42ae2945e304ed518629d3445e5a2d2c71f4ff6e8d731655f2695a0b225",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_experiment_logger.py",
+    "input_package": "legacy",
+    "original_sha256": "a409ab6857e15cb7b488332a27083e3e173d8913316c196d3679838f2acafd9e",
+    "release_sha256": "d37cd1c3477f68fd5fb5e78f128374bc5ff696e0828322ec55f8568dad0b2558",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_fast_path_service.py",
+    "input_package": "legacy",
+    "original_sha256": "661faa30027d3b51a4438eb4f489b7b1b995fc8ea831411836583bf0ae26d80d",
+    "release_sha256": "d369e8632bd62ad4d9a47be30ddc9bf02f06db5a21217ac6f275cfa7fb866c5a",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_main_fast_path_backend.py",
+    "input_package": "legacy",
+    "original_sha256": "7342719fb13a7bd976c830d13618092132fdf97fe18177537b7879af287009fa",
+    "release_sha256": "9ecfdd702d7f215dc2edbc1c81daf7802f09f9fff70acdc493d3f503422e4e1d",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_main_keyboard_precheck.py",
+    "input_package": "legacy",
+    "original_sha256": "ccd0a1cd7d4d9c275de7e4f8379537d1bb7ce35afa3ecd6dae9fbaf8d7689688",
+    "release_sha256": "e6bd926099b4d7ccd2a8c507dd58c98a4d49b9fa050870c4e03dfa759aac7a4e",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_modela_prompt_sync.py",
+    "input_package": "legacy",
+    "original_sha256": "50696ca2deb456886103a2390a64bbb665218ed7df6a71f099417a0ad312e940",
+    "release_sha256": "9d24ea7297db9f5b85ee66e89be2d27e14c39990f978ffe107a60bc1ee40e9c5",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_runtime_health.py",
+    "input_package": "legacy",
+    "original_sha256": "53b635605087c73425565b4b8123f038269681d42637a2b25fe053e40b3944ae",
+    "release_sha256": "31ccfca06891e48d625816f42c0df7df26886f3041b4084218e78e6a45990e6a",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_runtime_policy.py",
+    "input_package": "legacy",
+    "original_sha256": "75eb2da87617e5fb621fb67388bdc06a95b82d8ae9d76f8227e283beb5ff98bb",
+    "release_sha256": "ce74a3bd38e5477d0ba0a129acfd5839e4df46c0c01b051a9ff74df39fad71b3",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/tests/test_semantic_contract.py",
+    "input_package": "legacy",
+    "original_sha256": "fdba01d79d3cae117ac6c37c4abe3dab5718967eee2c605cc180bc02b4ed3860",
+    "release_sha256": "aa2159e2caec619e5c7a0ad6dff00048f9caaf28dcb10761b709c0871c2a7fec",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/web_console/app.js",
+    "input_package": "legacy",
+    "original_sha256": "167de38cec8f7916480eb9ac208b465488354aa5177502307757b35b9e3234df",
+    "release_sha256": "9faaee9cda41486936fe52a87078e27a749e6b645593055f8cf9067dd7c84f7a",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/web_console/index.html",
+    "input_package": "legacy",
+    "original_sha256": "a432dee2226c492c9e59d6a2eb697b71079368318cb895a26166de527d258052",
+    "release_sha256": "8f0b1a9a8124d9e86c67164cb6684f3ea4b3a8db10a26475ea1c3a8760c391b3",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "application/web_console/styles.css",
+    "input_package": "legacy",
+    "original_sha256": "77b5c1aa991a70340d9e7392ab0b5c97bb824c725bcb496460bd026eced2d710",
+    "release_sha256": "24bb18d11c0117d6ac0f0ddb034c36202abe167b6bcd40597d6085e97e057a67",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "data/analysis_contract.json",
+    "input_package": "legacy",
+    "original_sha256": "2bdaef0cd0fee825d81339388f2d6e9a887c4e2e66f0082b9d8f2ca47d419bbd",
+    "release_sha256": "3dac77f24b5190dae6781068bfb8ab9b4116599fde7ac221d7fdb9cd90a3f6ed",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "data/energy_pairs.csv",
+    "input_package": "legacy",
+    "original_sha256": "85f37375809606555753d78d3e626bec805fe9ff8f3da0ec3f75e6927f6b2d1b",
+    "release_sha256": "85f37375809606555753d78d3e626bec805fe9ff8f3da0ec3f75e6927f6b2d1b",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/energy_source_checks.csv",
+    "input_package": "legacy",
+    "original_sha256": "30be26534eac9ae96872f3d09f25d3ad17899a9c5e1c77f54d7ae1311a784c4b",
+    "release_sha256": "30be26534eac9ae96872f3d09f25d3ad17899a9c5e1c77f54d7ae1311a784c4b",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/excluded_slots.csv",
+    "input_package": "legacy",
+    "original_sha256": "98e8f176c641dcc6d1d3e18ec8d711f301983b200b0855ce26abdcd6848e79ac",
+    "release_sha256": "98e8f176c641dcc6d1d3e18ec8d711f301983b200b0855ce26abdcd6848e79ac",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/fourlayer_slots.jsonl",
+    "input_package": "legacy",
+    "original_sha256": "c47dcde0dc66cd0098828abb314fd36bbca24ecf982827ffd0af543b47647fc3",
+    "release_sha256": "c47dcde0dc66cd0098828abb314fd36bbca24ecf982827ffd0af543b47647fc3",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/historical_high_mixed_points.csv",
+    "input_package": "legacy",
+    "original_sha256": "234c0ff43fda2fc0a2e82d31d09beeba9003ff31daa8dcbb42d8e1581dc70d39",
+    "release_sha256": "234c0ff43fda2fc0a2e82d31d09beeba9003ff31daa8dcbb42d8e1581dc70d39",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/historical_mixed_SEPARATE.csv",
+    "input_package": "legacy",
+    "original_sha256": "e7dda5a7ead64c332dad9e8cd68ac684671437235da0369c1183e10542765b56",
+    "release_sha256": "e7dda5a7ead64c332dad9e8cd68ac684671437235da0369c1183e10542765b56",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/router_call_latency.csv",
+    "input_package": "legacy",
+    "original_sha256": "215999b2a91679c87ee0053b311a1ff0456bc089f850cadedf45337db4a28c59",
+    "release_sha256": "215999b2a91679c87ee0053b311a1ff0456bc089f850cadedf45337db4a28c59",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/saved_router_predictions.jsonl",
+    "input_package": "legacy",
+    "original_sha256": "9e8edc6b055bccfff6ec9072d0d3ec12ec74c96c198095b6f875c1d3096d1879",
+    "release_sha256": "9e8edc6b055bccfff6ec9072d0d3ec12ec74c96c198095b6f875c1d3096d1879",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/terminal_slots.csv",
+    "input_package": "legacy",
+    "original_sha256": "7be55421f2f5fff0e4704ee7f91cd04d2a1423450f0c1027e20dedc0b74555e8",
+    "release_sha256": "7be55421f2f5fff0e4704ee7f91cd04d2a1423450f0c1027e20dedc0b74555e8",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "data/window_replay_cells.csv",
+    "input_package": "legacy",
+    "original_sha256": "c411929a9c5e5d0688774f0e4f3415a477df3e8b945c3cbea7673a81619ceffc",
+    "release_sha256": "c411929a9c5e5d0688774f0e4f3415a477df3e8b945c3cbea7673a81619ceffc",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "docs/DATA_DICTIONARY.md",
+    "input_package": "legacy",
+    "original_sha256": "c2c3ae762d8ba2e6fc55dfcc233fda5791ad81c3e5e9d6452f6ba8d76d71d933",
+    "release_sha256": "b12b3046993816f8e3a1db7ec2290817a5e475b96e069b4c1f8cdc9284fac59f",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "docs/RELEASE_STATUS.md",
+    "input_package": "legacy",
+    "original_sha256": "cc04a101d5d82b78ff17d0aa9ee91ebab69eeb45708cde9a99212c9c6d2e6f6e",
+    "release_sha256": "adf7013c5d10649fdd882f9ace5e0fb1d57d1e2384c227228482d7a4b234f0bf",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "docs/REPRODUCTION_SCOPE.md",
+    "input_package": "legacy",
+    "original_sha256": "cd989bb1b5732b539374ba6bf69aa967046a7b6330a7faf67ff64a08d293594c",
+    "release_sha256": "20bd123bc32baf4a0f71362ea43971ca2c184436967b737e67239011d738ac18",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "docs/RUNNING_THE_APPLICATION.md",
+    "input_package": "legacy",
+    "original_sha256": "add48687f43feb5a12eb8973470b1f4fe790adc02407ca88b2a6bb0bf26d3ce6",
+    "release_sha256": "10e4c93db60a5e2b2158daac153aa4978dcf279fb4837d28fed0dd68613d9dcf",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "expected/A_common_judgeable.csv",
+    "input_package": "legacy",
+    "original_sha256": "2f9acf2cdd30a05b4299a3d33a59f50e4c1f316eb57cc87ab9724094b0771668",
+    "release_sha256": "2f9acf2cdd30a05b4299a3d33a59f50e4c1f316eb57cc87ab9724094b0771668",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/A_denominators.csv",
+    "input_package": "legacy",
+    "original_sha256": "2c80f3dd221d630570987aaef9fec73673ab4c4e48bb170ce463bc69dd2f6801",
+    "release_sha256": "2c80f3dd221d630570987aaef9fec73673ab4c4e48bb170ce463bc69dd2f6801",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/A_success_boundaries.csv",
+    "input_package": "legacy",
+    "original_sha256": "695b7526843a8211c610f88bf6551567b4ad4f5cb73939ccfaf2f8defd9fdb8b",
+    "release_sha256": "695b7526843a8211c610f88bf6551567b4ad4f5cb73939ccfaf2f8defd9fdb8b",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/B_energy_difference_welch_ci.csv",
+    "input_package": "legacy",
+    "original_sha256": "db5d6fa3fd827bb991dc360bd4b964c15d00716e23bb23744380da77deae546d",
+    "release_sha256": "db5d6fa3fd827bb991dc360bd4b964c15d00716e23bb23744380da77deae546d",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/B_energy_mean_t_ci.csv",
+    "input_package": "legacy",
+    "original_sha256": "1c86ddb5beb684db14bc38d83ef34a5b47818ea4e8017e6488cc15c7b8349816",
+    "release_sha256": "1c86ddb5beb684db14bc38d83ef34a5b47818ea4e8017e6488cc15c7b8349816",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/C_category_cost_differences.csv",
+    "input_package": "legacy",
+    "original_sha256": "09904a529be11eeffde1c058b25c690850a3d4b93a2745cca832faee2a8ee738",
+    "release_sha256": "09904a529be11eeffde1c058b25c690850a3d4b93a2745cca832faee2a8ee738",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/C_conditional_zero_crossings.csv",
+    "input_package": "legacy",
+    "original_sha256": "d636139d9c89b8d289d4340f624a8b34c04e81543ee58f0c70a100516248a968",
+    "release_sha256": "d636139d9c89b8d289d4340f624a8b34c04e81543ee58f0c70a100516248a968",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/C_mixture_25_50_75.csv",
+    "input_package": "legacy",
+    "original_sha256": "c137feaf66e39074855d4b7a06337d5b8407bb2f988589571361ef7883929c9d",
+    "release_sha256": "c137feaf66e39074855d4b7a06337d5b8407bb2f988589571361ef7883929c9d",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/D_percentile_exit_spike.csv",
+    "input_package": "legacy",
+    "original_sha256": "426ef62df2c91e3b1161b2f60b3f5af25fab1e6bca2ef63dfb1c77cb904d6e08",
+    "release_sha256": "426ef62df2c91e3b1161b2f60b3f5af25fab1e6bca2ef63dfb1c77cb904d6e08",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/D_reaggregated_36_summaries.csv",
+    "input_package": "legacy",
+    "original_sha256": "f276908be3904092552fa207ebbb65d6088ba11f49a1053374de6febb81c1ee1",
+    "release_sha256": "f276908be3904092552fa207ebbb65d6088ba11f49a1053374de6febb81c1ee1",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/E_budget_exceedance.csv",
+    "input_package": "legacy",
+    "original_sha256": "2b5fc8f7cb5c6903249d0914b51085eaf93db2089dbdae009aff42f5a1b1916e",
+    "release_sha256": "2b5fc8f7cb5c6903249d0914b51085eaf93db2089dbdae009aff42f5a1b1916e",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/main_app_replay_summary.json",
+    "input_package": "legacy",
+    "original_sha256": "b7686588bc728ac14df9df5fd7f26b41a25453e9b74f0aab1203e0898cba7040",
+    "release_sha256": "b7686588bc728ac14df9df5fd7f26b41a25453e9b74f0aab1203e0898cba7040",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "expected/router_latency_summary.json",
+    "input_package": "legacy",
+    "original_sha256": "115cdb16c4f87837d02670977ab748b763b89cd65f9e3da4dd354df95f280ade",
+    "release_sha256": "115cdb16c4f87837d02670977ab748b763b89cd65f9e3da4dd354df95f280ade",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "provenance/source_map.json",
+    "input_package": "legacy",
+    "original_sha256": "9d3f8f30e348436492aaf141a587cbb8d1587f2103ce2620668db29d5fc21a6e",
+    "release_sha256": "5e6800be465c6859f51c846ceddeabb89f3375cee457b820618e4b0982364561",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "requirements-analysis.txt",
+    "input_package": "legacy",
+    "original_sha256": "4b81b6b6a549771115529e6900b9589835cdbfff0c6acf179aef53d283b744d5",
+    "release_sha256": "4b81b6b6a549771115529e6900b9589835cdbfff0c6acf179aef53d283b744d5",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "validation.json",
+    "input_package": "legacy",
+    "original_sha256": "108180902ffdb42b7aa7c6f2e8b7d39bc953210a40db4477c0adc75e51c7a534",
+    "release_sha256": null,
+    "changed": true,
+    "status": "generated_metadata_verify_with_final_manifest_or_archive_receipt"
+  },
+  {
+    "path": "SHA256SUMS.json",
+    "input_package": "legacy",
+    "original_sha256": "765804b30a9973f86a08568b7f9b3994517334cc0498c85a0d72ff4e00b6a60b",
+    "release_sha256": null,
+    "changed": true,
+    "status": "generated_metadata_verify_with_final_manifest_or_archive_receipt"
+  },
+  {
+    "path": "mobile_admission/README.md",
+    "input_package": "mobile",
+    "original_sha256": "f8624750f5c525e0ea10f8a92eaf744ef693b79fc933dfb56b46822caf41d255",
+    "release_sha256": "b06de422b7a90951d1c87b0d0a29313319c2fc2dbcefe859e86175d71ca5820e",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "mobile_admission/SHA256SUMS.json",
+    "input_package": "mobile",
+    "original_sha256": "2e1fee14ef3aff664ea16246c4b64aaa21a48cefb447c1b1cc16fc21373c8a31",
+    "release_sha256": null,
+    "changed": true,
+    "status": "generated_metadata_verify_with_final_manifest_or_archive_receipt"
+  },
+  {
+    "path": "mobile_admission/SOURCE.md",
+    "input_package": "mobile",
+    "original_sha256": "b9f3c6a328c4e38be6286e2063c770d1d9a0fff0f1dbfa11689e1f4413464feb",
+    "release_sha256": "5c290936e25a84d8ef6d2c551d5de77c437272e86e3bdbea52e85e13fa6e9196",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "mobile_admission/analysis/derived_methods.py",
+    "input_package": "mobile",
+    "original_sha256": "32b4f3d083b106841b4f2bf8fd35bf3e8db146f9fd23178dc9c555acdd095a68",
+    "release_sha256": "3650cb08d3a875dde46b9c3a691c2c0abaeed82b9bdada74666c711a03612da4",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "mobile_admission/analysis/verify_results.py",
+    "input_package": "mobile",
+    "original_sha256": "f815d412f02253b110818b5728bd70b73fff6938d5cc41d7104819e3e2b10699",
+    "release_sha256": "a7f327d4e86c853b197fc355d7adfbe018a70bc15c69e7c395761c726b3727f1",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "mobile_admission/data/arrivals.jsonl",
+    "input_package": "mobile",
+    "original_sha256": "138cfe03c929057e1b9db90e57cf1d536890ac4a93d366281916ebb3426fba95",
+    "release_sha256": "138cfe03c929057e1b9db90e57cf1d536890ac4a93d366281916ebb3426fba95",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/data/batches.json",
+    "input_package": "mobile",
+    "original_sha256": "8dbd078273d5887b3d2ad07ac26178a02d2f4fd5754042b7faf6baa670bf8f61",
+    "release_sha256": "8dbd078273d5887b3d2ad07ac26178a02d2f4fd5754042b7faf6baa670bf8f61",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/data/complete_batch_table.json",
+    "input_package": "mobile",
+    "original_sha256": "2a869c387ff801931742e6d69935656eeab9653f53e5934d61e4996ff9250a78",
+    "release_sha256": "2a869c387ff801931742e6d69935656eeab9653f53e5934d61e4996ff9250a78",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/data/events.jsonl",
+    "input_package": "mobile",
+    "original_sha256": "de13a1648c9a31eeb9f63564b0b126c6d8e56abf2b133c2eb077765a0a78111b",
+    "release_sha256": "de13a1648c9a31eeb9f63564b0b126c6d8e56abf2b133c2eb077765a0a78111b",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/data/protocol_numeric.json",
+    "input_package": "mobile",
+    "original_sha256": "000beb7dfc45a81d738a98b217674d9691463df197380010b4d0e767484026bc",
+    "release_sha256": "000beb7dfc45a81d738a98b217674d9691463df197380010b4d0e767484026bc",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/docs/DATA_DICTIONARY.md",
+    "input_package": "mobile",
+    "original_sha256": "8e023297cb8fe9474bd9b03ca52d44f72cc4705f4457a287738f485cb79e067f",
+    "release_sha256": "8e023297cb8fe9474bd9b03ca52d44f72cc4705f4457a287738f485cb79e067f",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/docs/FIELD_WHITELIST.json",
+    "input_package": "mobile",
+    "original_sha256": "b8373a37af0b3d3d665f51828b603affe737c0d84e82d7691042d9a855419c8d",
+    "release_sha256": "b8373a37af0b3d3d665f51828b603affe737c0d84e82d7691042d9a855419c8d",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/docs/REPRODUCTION_SCOPE.md",
+    "input_package": "mobile",
+    "original_sha256": "fc27b52b9e630c38e60261d770da8be8e8c4ec562a74e32f72926b4a1eb3953d",
+    "release_sha256": "ca507416bdc2791367dc38838cc6bfc9b692afb7c134f04b6a99d6a9ff9bb266",
+    "changed": true,
+    "status": "release_packaging_or_metadata_adjustment"
+  },
+  {
+    "path": "mobile_admission/expected/batch_results.json",
+    "input_package": "mobile",
+    "original_sha256": "ca04dd711419dfd23b02af841bc32835dab91db66371616f9a161cfcf257b294",
+    "release_sha256": "ca04dd711419dfd23b02af841bc32835dab91db66371616f9a161cfcf257b294",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/provenance/method_extraction.json",
+    "input_package": "mobile",
+    "original_sha256": "a1f05de9b1e6cbe0fe61c58303bd2534115bbed3d26016f8a149e75e4c05addf",
+    "release_sha256": "a1f05de9b1e6cbe0fe61c58303bd2534115bbed3d26016f8a149e75e4c05addf",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/provenance/protocol_crosscheck.json",
+    "input_package": "mobile",
+    "original_sha256": "7bb7863c3f4e7db7df38c483fd6d3bd2f9df65c0a943a75f7e86706b7e709677",
+    "release_sha256": "7bb7863c3f4e7db7df38c483fd6d3bd2f9df65c0a943a75f7e86706b7e709677",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/provenance/source_crosscheck.json",
+    "input_package": "mobile",
+    "original_sha256": "2cb5f155622ea6bda36dd6f8e8f289aa6643783ce728e283d98756d9b6f1ef0e",
+    "release_sha256": "2cb5f155622ea6bda36dd6f8e8f289aa6643783ce728e283d98756d9b6f1ef0e",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/provenance/source_sha256.json",
+    "input_package": "mobile",
+    "original_sha256": "b8c36cbb16e68976d2ee8ba6aa7e728830e8220835b2752972f1dd6469229491",
+    "release_sha256": "b8c36cbb16e68976d2ee8ba6aa7e728830e8220835b2752972f1dd6469229491",
+    "changed": false,
+    "status": "retained_byte_identical"
+  },
+  {
+    "path": "mobile_admission/provenance/source_version_comparison.json",
+    "input_package": "mobile",
+    "original_sha256": "b4f48d6039366c2b2d1a2a126b765b8f6c8847d7db0e5fd21ee13e945e507ac2",
+    "release_sha256": "b4f48d6039366c2b2d1a2a126b765b8f6c8847d7db0e5fd21ee13e945e507ac2",
+    "changed": false,
+    "status": "retained_byte_identical"
+  }
+]

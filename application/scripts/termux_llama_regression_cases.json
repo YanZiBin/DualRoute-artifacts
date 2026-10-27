@@ -1,0 +1,88 @@
+[
+  {
+    "text": "打开美团",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开网易云音乐",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开飞书",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开腾讯视频",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开铁路12306",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开12306",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "12306",
+    "expected_prediction": "1",
+    "note": "按当前电脑端 merged HF 真实基线保持为 1，要求是不误进 0。"
+  },
+  {
+    "text": "铁路12306",
+    "expected_prediction": "1",
+    "note": "按当前电脑端 merged HF 真实基线保持为 1，要求是不误进 0。"
+  },
+  {
+    "text": "开12306",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "进12306",
+    "expected_prediction": "0"
+  },
+  {
+    "text": "打开美团点奶茶",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "帮我打开美团点奶茶",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开淘宝搜卫衣",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开京东看订单",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开网易云音乐播放周杰伦",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开飞书给张三发消息",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开腾讯视频搜索三体",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开铁路12306查明天的票",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "打开12306买高铁票",
+    "expected_prediction": "1"
+  },
+  {
+    "text": "帮我写一篇文章",
+    "expected_prediction": "2"
+  },
+  {
+    "text": "打开一个不存在的App",
+    "expected_prediction": "2"
+  }
+]

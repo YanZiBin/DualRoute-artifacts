@@ -1,0 +1,129 @@
+{
+  "status": "PASS_LOCAL_PRIVATE_SOURCE_CROSSCHECK",
+  "batch_checks": [
+    {
+      "batch_id": "o-b01",
+      "private_manifest_files_sha256_verified": 496,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 65,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b02",
+      "private_manifest_files_sha256_verified": 519,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 62,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b03",
+      "private_manifest_files_sha256_verified": 560,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 50,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b04",
+      "private_manifest_files_sha256_verified": 491,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 63,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b05",
+      "private_manifest_files_sha256_verified": 574,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 49,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b06",
+      "private_manifest_files_sha256_verified": 512,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 66,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b07",
+      "private_manifest_files_sha256_verified": 304,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 32,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b08",
+      "private_manifest_files_sha256_verified": 107,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 0,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "o-b09",
+      "private_manifest_files_sha256_verified": 107,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 0,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": null,
+      "saved_final_original_numeric_analysis_matched": true
+    },
+    {
+      "batch_id": "s-b01",
+      "private_manifest_files_sha256_verified": 585,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 57,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": true,
+      "saved_final_original_numeric_analysis_matched": null
+    },
+    {
+      "batch_id": "s-b02",
+      "private_manifest_files_sha256_verified": 467,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 65,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": true,
+      "saved_final_original_numeric_analysis_matched": null
+    },
+    {
+      "batch_id": "s-b03",
+      "private_manifest_files_sha256_verified": 481,
+      "raw_sidecar_ledger_sha256_matched": true,
+      "semantic_reference_hashes_verified": 67,
+      "scoring_matches_original_method_on_private_source_overlay": true,
+      "health_faults_halfopen_match_saved_raw_analysis": true,
+      "saved_final_independent_scoring_matched": true,
+      "saved_final_original_numeric_analysis_matched": null
+    }
+  ],
+  "method": "The twelve extracted function bodies are unchanged; results compared with saved raw health/fault/halfopen analyses and sidecar-applied scoring. Supplement scoring also compared with final independent review.",
+  "source_manifest_files_checked": 5203,
+  "source_evidence_refs_sha256_checked": 576,
+  "limitation": "An outside reader cannot repeat private-source hash verification or image adjudication using anonymous hashes alone."
+}

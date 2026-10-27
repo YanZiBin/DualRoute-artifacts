@@ -1,0 +1,7 @@
+device,metric,unit,launch_weight_zero_crossing,status
+High,net_mah_request,mAh/request,0.6829268292682924,point estimate only; not measured or validated deployment threshold
+High,active_seconds_request,s/request,0.5349084418669819,point estimate only; not measured or validated deployment threshold
+Mid,net_mah_request,mAh/request,0.6296296296296297,point estimate only; not measured or validated deployment threshold
+Mid,active_seconds_request,s/request,0.25901570131361346,point estimate only; not measured or validated deployment threshold
+Low,net_mah_request,mAh/request,0.6489776760831939,point estimate only; not measured or validated deployment threshold
+Low,active_seconds_request,s/request,0.5678630839367483,point estimate only; not measured or validated deployment threshold

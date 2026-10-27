@@ -1,0 +1,13 @@
+device,metric,unit,workload,routed_mean,cloud_mean,difference
+High,net_mah_request,mAh/request,Launch,2.694444444444444,3.055555555555556,-0.3611111111111116
+High,net_mah_request,mAh/request,Workflow,4.055555555555555,3.2777777777777777,0.7777777777777777
+High,active_seconds_request,s/request,Launch,27.745694444444446,36.22886111111111,-8.483166666666662
+High,active_seconds_request,s/request,Workflow,48.351444444444446,38.594833333333334,9.756611111111113
+Mid,net_mah_request,mAh/request,Launch,3.888888888888889,5.0,-1.1111111111111112
+Mid,net_mah_request,mAh/request,Workflow,7.444444444444445,5.555555555555555,1.8888888888888893
+Mid,active_seconds_request,s/request,Launch,16.32472222222222,29.19516666666667,-12.870444444444448
+Mid,active_seconds_request,s/request,Workflow,45.750055555555555,41.251111111111115,4.49894444444444
+Low,net_mah_request,mAh/request,Launch,3.3618888888888887,4.6914444444444445,-1.3295555555555558
+Low,net_mah_request,mAh/request,Workflow,8.74561111111111,6.2875,2.4581111111111102
+Low,active_seconds_request,s/request,Launch,31.43788888888889,45.73275,-14.294861111111114
+Low,active_seconds_request,s/request,Workflow,79.09611111111111,60.3115,18.78461111111111

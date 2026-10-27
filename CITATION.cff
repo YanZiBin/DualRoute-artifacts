@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the DualRoute manuscript and this exact artifact release, v0.1.0."
+type: software
+title: "DualRoute: Separating Execution Boundaries and Cloud Admission for Mobile GUI Agents"
+authors:
+  - family-names: Yan
+    given-names: Zibin
+  - family-names: Gui
+    given-names: Dan
+license: Apache-2.0
+keywords:
+  - mobile GUI agents
+  - edge-cloud computing
+  - runtime admission
+abstract: "Prompt-excluded application snapshot and exported observations for offline numerical reanalysis. Dataset license is CC-BY-4.0 as scoped in LICENSE-DATA and docs/LICENSE_SCOPE.md. No training, fresh inference or turnkey device reproduction is claimed."
+version: v0.1.0
+date-released: 2026-10-27
+repository-code: "https://github.com/YanZiBin/DualRoute-artifacts"
+url: "https://github.com/YanZiBin/DualRoute-artifacts/releases/tag/v0.1.0"

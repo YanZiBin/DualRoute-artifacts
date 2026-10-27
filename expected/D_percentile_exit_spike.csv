@@ -1,0 +1,7 @@
+setting,config_id,profile,noise_trace_count,expected_met_trace_count,false_trigger_count_total,switch_count_observed_n,switch_count_mean,switch_count_min,switch_count_max,degraded_step_count_observed_n,degraded_step_count_mean,degraded_step_count_min,degraded_step_count_max,detect_delay_observed_n,detect_delay_mean,detect_delay_min,detect_delay_max,recover_delay_observed_n,recover_delay_mean,recover_delay_min,recover_delay_max
+P50,percentile_low,spike_recover,4,4,0,4,2.0,2.0,2.0,4,10.5,10.0,12.0,4,5.0,5.0,5.0,4,5.5,5.0,7.0
+P75,baseline,spike_recover,4,4,0,4,2.0,2.0,2.0,4,16.0,15.0,17.0,4,2.0,2.0,2.0,4,8.0,7.0,9.0
+P90,percentile_high,spike_recover,4,4,0,4,2.0,2.0,2.0,4,20.75,18.0,24.0,4,1.0,1.0,1.0,4,11.75,9.0,15.0
+exit 5s,exit_ms_low,spike_recover,4,4,0,4,2.0,2.0,2.0,4,21.5,17.0,26.0,4,2.0,2.0,2.0,4,13.5,9.0,18.0
+exit 8s,baseline,spike_recover,4,4,0,4,2.0,2.0,2.0,4,16.0,15.0,17.0,4,2.0,2.0,2.0,4,8.0,7.0,9.0
+exit 11s,exit_ms_high,spike_recover,4,4,0,4,2.0,2.0,2.0,4,15.25,15.0,16.0,4,2.0,2.0,2.0,4,7.25,7.0,8.0

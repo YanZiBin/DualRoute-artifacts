@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "round": "original",
+      "source_id": "SRC01275",
+      "arrivals_cycle_counts_phases_windows_thresholds_order_power_matched": true
+    },
+    {
+      "round": "supplement",
+      "source_id": "SRC01276",
+      "arrivals_cycle_counts_phases_windows_thresholds_order_power_matched": true
+    }
+  ],
+  "excluded": "Original task text, prompt and context are not copied."
+}

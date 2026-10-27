@@ -1,0 +1,96 @@
+<!--
+SPDX-License-Identifier: Apache-2.0
+Copyright 2026 DualRoute authors.
+DualRoute analysis/runtime source; original experimental scope is documented in the release provenance.
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoGLM 浏览器控制台</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero card">
+      <div class="hero-copy">
+        <p class="eyebrow">AutoGLM Demo Console</p>
+        <h1>手机浏览器单页控制台</h1>
+        <p class="subtitle">浏览器负责输入任务，服务负责调用现有 <code>main.py</code>，页面实时展示状态、日志和最终结果。</p>
+      </div>
+      <div class="meta-grid">
+        <div class="meta-item">
+          <span class="meta-label">服务健康</span>
+          <strong id="healthBadge" class="badge badge-neutral">检查中</strong>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">当前状态</span>
+          <strong id="statusBadge" class="badge badge-neutral">idle</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>任务输入</h2>
+        <p>一次只允许执行一个任务。</p>
+      </div>
+      <form id="executeForm" class="task-form">
+        <label class="field-label" for="taskInput">输入任务</label>
+        <textarea id="taskInput" name="task" rows="3" placeholder="例如：打开美团 / 打开小红书搜索PPT / 帮我写一篇文章" required></textarea>
+        <div class="form-actions">
+          <button id="submitButton" type="submit">开始执行</button>
+          <span id="currentTask" class="current-task">当前无任务</span>
+        </div>
+      </form>
+      <p id="errorBanner" class="error-banner" hidden></p>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>执行状态</h2>
+        <p>服务会轮询后端并实时刷新。</p>
+      </div>
+      <dl class="status-grid">
+        <div>
+          <dt>任务内容</dt>
+          <dd id="statusText">无</dd>
+        </div>
+        <div>
+          <dt>开始时间</dt>
+          <dd id="startedAt">-</dd>
+        </div>
+        <div>
+          <dt>结束时间</dt>
+          <dd id="finishedAt">-</dd>
+        </div>
+        <div>
+          <dt>返回码</dt>
+          <dd id="returnCode">-</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="panel-grid">
+      <section class="card panel">
+        <div class="section-head">
+          <h2>执行日志</h2>
+          <p>轮询 <code>/logs</code></p>
+        </div>
+        <pre id="logsPanel" class="mono-panel">等待任务日志...</pre>
+      </section>
+
+      <section class="card panel">
+        <div class="section-head">
+          <h2>最终结果</h2>
+          <p>来自任务完成后的结果提取</p>
+        </div>
+        <pre id="resultPanel" class="mono-panel">等待任务结果...</pre>
+      </section>
+    </section>
+  </main>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

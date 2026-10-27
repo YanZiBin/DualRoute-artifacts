@@ -1,0 +1,43 @@
+{
+  "source_id": "SRC00001",
+  "mode": "unchanged_function_body_extraction",
+  "retained_functions": [
+    "numeric",
+    "number",
+    "ratio_bounds",
+    "phase",
+    "state",
+    "route",
+    "event_time",
+    "issue",
+    "health_metrics",
+    "call_metrics",
+    "halfopen_metrics",
+    "score_arrivals"
+  ],
+  "function_source_sha256": {
+    "numeric": "8361368b20a9addb9728a9ea845cde6e74584ceb7c0574f49f47c3c4832f7cfe",
+    "number": "52bf8756274bba3d14a793c8880d599835ddb73481164ed3d1e67e4816dba837",
+    "ratio_bounds": "52a8e27656985f62280e253f4f7954e2348f56808e6d0c66326bf717ab48cf12",
+    "phase": "abac54c4e1d78203c4f7b8768daaa4fd737254fc3f57137bc2f6db8846161af1",
+    "state": "e2f1fd45098a2edededfb03367467f59a2675bd765eeb045ec899a05b9325c45",
+    "route": "bda0fff59d36a1bb5faf7f89432cb51cfbe87b7c35662750fe5ac12fac7ceae7",
+    "event_time": "f958adb7b4c209f487261f2bc302c54ee196665ac10cd2e5f60d330b2f4362b4",
+    "issue": "83eaa404d9f417b089a764626894fc357c47a82a0a630fdd592d4544067520d8",
+    "health_metrics": "6c2d3ae328aefabb5efd34c4d45be629bf4cb1580b894333f2551270d018f258",
+    "call_metrics": "a9cd91d94e3b1cb55d4b685586b6432372a715e6bf8ff170805088aafa3add72",
+    "halfopen_metrics": "e2444da4f3d535b69228aa4532f7819fa4288894e331a5970b8b0b2a34dbc951",
+    "score_arrivals": "a58e6f0f11150fcf556d118a5f915195afa216595131c539f2aa1550275a6d22"
+  },
+  "added_public_constants": [
+    "CYCLE",
+    "ADMITTED",
+    "NONSTART"
+  ],
+  "omitted": [
+    "private source loaders and fixed paths",
+    "acquisition entrypoints",
+    "fixtures and simulation",
+    "full-runtime validation"
+  ]
+}

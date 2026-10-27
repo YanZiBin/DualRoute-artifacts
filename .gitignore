@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+glm/
+.env
+.env.*
+!.env.example
+*.log
+experiment_logs/
+screenshots/
+models-gguf/
+*.gguf
+*.safetensors
+*.joblib
+*.pem
+adbkey*
+.DS_Store

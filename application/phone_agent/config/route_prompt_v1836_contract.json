@@ -1,0 +1,9 @@
+{
+  "version": "V18.36",
+  "kind": "runtime_prompt_contract_not_training_manifest",
+  "prompt_characters": 714,
+  "prompt_utf8_bytes": 1814,
+  "prompt_sha256": "3f6bd8f92f0997efad06596aa45e35a428209e4022a915cf1717b038d752f011",
+  "previous_prompt_sha256": "90c936f8ecb786ea74b21f6d5cf7887d1760a2b752e4f3f451ff6964ced36c99",
+  "change": "Complete known all-app launch 2 -> 1; raw2 remains fail-closed; no historical data modified"
+}

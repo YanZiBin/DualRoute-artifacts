@@ -1,0 +1,345 @@
+{
+  "status": "PASS_LOCAL_RELEASE_COPY",
+  "local_review_version": "v2",
+  "unpublished": true,
+  "uploaded": false,
+  "git_committed": false,
+  "independent_review": {
+    "original_verdict": "NEEDS_FIX",
+    "findings": 1,
+    "affected_locations": 2,
+    "remediation": "Both entrypoints now check prompt configuration before loading; parent executed targeted and full existing tests.",
+    "independent_recheck_of_fix": false
+  },
+  "prompt_order_test_scope": "Actual LocalRouteModel methods plus the exact validation-main function body executed with explicit dependency stubs; no real weights were loaded.",
+  "commands": [
+    {
+      "command": "python -I -B analysis/verify_results.py",
+      "cwd": ".",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -I -B seal_manifests.py (local build utility outside release)",
+      "cwd": ".",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -I -B mobile_admission/analysis/verify_results.py",
+      "cwd": ".",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -B -m unittest discover -s tests -p \"test_*.py\" -v",
+      "cwd": "application/",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -B main.py --help",
+      "cwd": "application/",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -B main.py --list-apps",
+      "cwd": "application/",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "python -B setup.py --name",
+      "cwd": "application/",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    },
+    {
+      "command": "clang++ -std=c++17 -fsyntax-only -I <fixed llama.cpp headers> application/scripts/termux_llama_route_worker.cpp",
+      "cwd": ".",
+      "returncode": 0,
+      "log": "Local review transcript; not included in this public payload"
+    }
+  ],
+  "runtime": {
+    "python": "3.10.19",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "legacy_reference_groups": 13,
+  "router_correct": {
+    "cp800": {
+      "base": {
+        "parsed": 132,
+        "effective": 121
+      },
+      "variant": {
+        "parsed": 129,
+        "effective": 117
+      }
+    },
+    "baseline": {
+      "base": {
+        "parsed": 102,
+        "effective": 104
+      },
+      "variant": {
+        "parsed": 107,
+        "effective": 105
+      }
+    }
+  },
+  "mobile": {
+    "status": "PASS",
+    "expected_batches_matched": 12,
+    "total_ledger_rows": 624,
+    "total_actual_arrivals": 493,
+    "exported_numeric_events": 5353,
+    "p75_windows_recomputed": 1762,
+    "foreground_evidence": {
+      "n": 6,
+      "duration_ms": {
+        "n": 6,
+        "min": 75.89536400337238,
+        "max": 125.7601559991599,
+        "mean": 100.58295116565812,
+        "median": 100.56374949999736
+      },
+      "later_arrivals_during_postterminal_occupancy_n": 0,
+      "minimum_next_scheduled_margin_s": 23.327397018998454
+    },
+    "external_verification_blocked_n": 2
+  },
+  "existing_tests": {
+    "ran": 50,
+    "errors": 0,
+    "failures": 0,
+    "mocking": "Existing unit tests use explicit fixtures/mocks; route-service tests use real loopback HTTP. They do not establish real-device or fresh inference behavior."
+  },
+  "cli_smoke": {
+    "help": true,
+    "list_apps": true,
+    "metadata": true,
+    "metadata_warning": "setuptools emits an inherited license-classifier deprecation warning; metadata command exits 0. Installation/wheel portability is not verified."
+  },
+  "cpp_syntax": {
+    "returncode": 0,
+    "reference_commit": "fbd441c37933550c1e3365dc84dd73232334c15d",
+    "headers_bundled": false,
+    "link_or_inference_run": false
+  },
+  "source_integrity": {
+    "original_archives_unchanged": true,
+    "numerical_files_byte_identical_n": 29,
+    "numerical_files": [
+      "data/energy_pairs.csv",
+      "data/energy_source_checks.csv",
+      "data/excluded_slots.csv",
+      "data/fourlayer_slots.jsonl",
+      "data/historical_high_mixed_points.csv",
+      "data/historical_mixed_SEPARATE.csv",
+      "data/router_call_latency.csv",
+      "data/saved_router_predictions.jsonl",
+      "data/terminal_slots.csv",
+      "data/window_replay_cells.csv",
+      "expected/A_common_judgeable.csv",
+      "expected/A_denominators.csv",
+      "expected/A_success_boundaries.csv",
+      "expected/B_energy_difference_welch_ci.csv",
+      "expected/B_energy_mean_t_ci.csv",
+      "expected/C_category_cost_differences.csv",
+      "expected/C_conditional_zero_crossings.csv",
+      "expected/C_mixture_25_50_75.csv",
+      "expected/D_percentile_exit_spike.csv",
+      "expected/D_reaggregated_36_summaries.csv",
+      "expected/E_budget_exceedance.csv",
+      "expected/main_app_replay_summary.json",
+      "expected/router_latency_summary.json",
+      "mobile_admission/data/arrivals.jsonl",
+      "mobile_admission/data/batches.json",
+      "mobile_admission/data/complete_batch_table.json",
+      "mobile_admission/data/events.jsonl",
+      "mobile_admission/data/protocol_numeric.json",
+      "mobile_admission/expected/batch_results.json"
+    ],
+    "static_identity_checks": {
+      "parser_guard_methods_ast_equal": true,
+      "parser_guard_method_count": 37,
+      "legacy_numeric_modules_ast_equal": true,
+      "mobile_numeric_module_ast_equal": true
+    },
+    "caution": "AST comparisons are static evidence only; functional checks are the separately executed commands."
+  },
+  "privacy_scan": {
+    "status": "PASS_BOUNDED_RELEASE_SCAN",
+    "files_checked": 139,
+    "blocked_hits": [],
+    "reviewed_examples": [
+      {
+        "path": "application/README.upstream.md",
+        "line": 360,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 364,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 367,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 371,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 383,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 386,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 389,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 399,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 402,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 405,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 419,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 433,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 445,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/README.upstream.md",
+        "line": 454,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/main.py",
+        "line": 411,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/main.py",
+        "line": 769,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/main.py",
+        "line": 785,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/main.py",
+        "line": 1219,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/adb/connection.py",
+        "line": 40,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/adb/connection.py",
+        "line": 44,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/adb/connection.py",
+        "line": 61,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/adb/connection.py",
+        "line": 336,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/adb/connection.py",
+        "line": 336,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 75,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 79,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 96,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 186,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 364,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      },
+      {
+        "path": "application/phone_agent/hdc/connection.py",
+        "line": 364,
+        "classification": "retained_upstream_documentation_private_ip_example"
+      }
+    ],
+    "rules": [
+      "credential_or_key",
+      "machine_specific_absolute_path",
+      "internal_revision_metadata"
+    ],
+    "exact_private_prompt_patterns_checked": 6,
+    "forbidden_binary_cache_assets_absent": true,
+    "limitations": "Rule/pattern checks plus manual scope review; not a full legal or remote-history audit. Upstream public examples, loopback tests and reserved synthetic example.invalid addresses are retained."
+  },
+  "initial_failures_resolved": [
+    "Mobile static scan falsely matched an Apache URL as a Windows path; require a drive-letter token boundary, retaining URL allowlisting.",
+    "An inherited AST test searched only main() for a helper located elsewhere in the frozen code; the existing test now locates the named helper across the module. Runtime source unchanged by that correction."
+  ],
+  "not_run": [
+    "No full C++ link/build or worker/model inference; only syntax with real fixed-version headers.",
+    "No phone, cloud GUI endpoint, training, new model prediction, fresh acquisition or original sensor/screenshot reconstruction.",
+    "No public upload, repository creation, visibility change, or unauthenticated public-download verification.",
+    "Stored bootstrap and historical Mixed intervals are reference results, not all regenerated by the legacy verifier.",
+    "No complete legal-rights or old repository-history audit."
+  ]
+}

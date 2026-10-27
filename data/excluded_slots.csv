@@ -1,0 +1,5 @@
+device,task_id,run_id,mode,state,attempt,machine,adjudication_line
+High,C08,fl-C08-Slow-only-cold-a1,Cloud-only,cold,1,finished,69
+Low,C02,fl-C02-Slow-only-cold-a1,Cloud-only,cold,2,finished,57
+Low,C03,fl-C03-Hybrid-cold-a1,Routed,cold,4,finished,70
+Low,C07,fl-C07-Hybrid-warm-a1,Routed,warm,2,finished,72

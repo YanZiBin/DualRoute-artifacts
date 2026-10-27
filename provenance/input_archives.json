@@ -1,0 +1,7 @@
+{
+  "legacy_archive_sha256": "ebb30249cbdb3729e616990f47598186a95912580aa0fcb6d3a8d30df0499522",
+  "mobile_archive_sha256": "07076a0ca478b95840ded554f414e1dcd46924b481a853bf17f963b6946bbdbe",
+  "legacy_member_count": 109,
+  "mobile_member_count": 19,
+  "note": "The frozen inputs remain private local review archives. Their hashes establish identity, not a published location. This release copy excludes prompts and adds notices/metadata."
+}

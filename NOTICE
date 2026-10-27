@@ -1,0 +1,32 @@
+DualRoute research artifacts
+Copyright 2026 DualRoute authors.
+
+This application derives from Open-AutoGLM, Copyright 2025 Zhipu AI,
+licensed under the Apache License, Version 2.0. The upstream license and
+README attribution are retained under application/. The local upstream
+reference used during review was commit
+86f55382982fb054e8fc98ca80609dff8a2cdc3c at
+https://github.com/zai-org/Open-AutoGLM . This reference is not asserted
+to be the original research fork point. No upstream NOTICE file was
+found in that reference's root tree.
+
+DualRoute modifications include routing/guard integration, health and
+admission handling, runtime instrumentation and release packaging.
+Modified inherited source files carry notices. Prompt-excluded release
+files are not byte-identical to the measured private runtime.
+
+LICENSE (Apache-2.0) applies to author-controlled application and
+analysis source, including mobile_admission/analysis/, and original
+release documentation, subject to retained upstream rights/notices.
+LICENSE-DATA (CC BY 4.0) applies only to author-controlled exported
+observations, synthetic evaluation examples, expected numerical tables
+and provenance metadata under data/, expected/, provenance/ and the
+corresponding mobile_admission/ directories. See docs/LICENSE_SCOPE.md.
+
+No rights to third-party app content, trademarks, private records,
+withheld weights, training datasets or unbundled dependencies are granted.
+llama.cpp and ADBKeyboard are external dependencies, not bundled assets.
+No endorsement by upstream or by any third-party app is implied.
+
+This copy is prepared for local author review. It has not been uploaded
+or published, and no public repository URL or release DOI is asserted.

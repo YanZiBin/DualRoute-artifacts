@@ -1,0 +1,590 @@
+[
+  {
+    "source_id": "LEGACY0001",
+    "source_sha256": "e86fc892f04aabec266fb03cf2eb0985dc8f0a1e7b0b4335b4695645de8249ac",
+    "destination": "application/main.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0002",
+    "source_sha256": "2d7f0a20e1938ff8ae3a778dd8aa0334ccaf37426b0bd018f80e1b0ff9d30c19",
+    "destination": "application/requirements.txt",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0003",
+    "source_sha256": "ee4c874f559753de8980a121ab0d9ffc2ecee0b2d88bf0b4fd2954c39b5f5ef4",
+    "destination": "application/setup.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0004",
+    "source_sha256": "c5ef175d085b305069501b4ad3f613ca13e871f263a7c5878611a665067e6ff5",
+    "destination": "application/README.upstream.md",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0005",
+    "source_sha256": "59ad503507a8de02eefe8d5ae8c2c52e0b33f2371977a1f1c6168ed3f71582d3",
+    "destination": "application/phone_agent/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0006",
+    "source_sha256": "62200c7813158517e60ce7f4850ff51440525790297271cf434e601e303fc1e4",
+    "destination": "application/phone_agent/actions/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0007",
+    "source_sha256": "737346ff49c74cff82ab4ac26c3256f9c6e88fc4adc55b5b3f6d86f3565bbfd7",
+    "destination": "application/phone_agent/actions/handler.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0008",
+    "source_sha256": "d2ae3a469450d777ab69288cfa26c8782eac1ee55c5b552dbd74e4dfa107a07a",
+    "destination": "application/phone_agent/actions/handler_ios.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0009",
+    "source_sha256": "c3708148646ff9c40f304f90f81c76b5b2ff5899296fd46a993da894d2bd4d9c",
+    "destination": "application/phone_agent/adb/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0010",
+    "source_sha256": "37041776ce5c38393a0662afb0039ddb8458db905adb85fc36bfa6eff3593f87",
+    "destination": "application/phone_agent/adb/connection.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0011",
+    "source_sha256": "76d0eda661d746ff61eaaaa7202b51393b5f444e70f63578b47c6db9d248c04a",
+    "destination": "application/phone_agent/adb/device.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0012",
+    "source_sha256": "77ffe621265def10c25992c87168df278114ae99d528058d80aa35abb93b9f8f",
+    "destination": "application/phone_agent/adb/input.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0013",
+    "source_sha256": "88f538adcda62b13681517fd8d967684f94c78a31611ac0ad140bbecce5c2d69",
+    "destination": "application/phone_agent/adb/screenshot.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0014",
+    "source_sha256": "75dabb109bcd300a78679db4ad11e7e9d44714f479f68091291a6f1c2fdeaf52",
+    "destination": "application/phone_agent/agent.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0015",
+    "source_sha256": "bad81979edc38e1abc204f3ca5a4e1a452a567ae8bc18bccf0ad6d9f1b28b336",
+    "destination": "application/phone_agent/agent_ios.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0016",
+    "source_sha256": "224014a264fb63a18dfdc05a505e56d6f6ef98551541064a5a8856f709cdbd10",
+    "destination": "application/phone_agent/config/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0017",
+    "source_sha256": "26868d17698170f92de35f205a655a64476b234f086c5aca3ab7a6a084f01323",
+    "destination": "application/phone_agent/config/apps.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0018",
+    "source_sha256": "5528ba7cb31102f61ec2d8f22bd3f23d0bae22f663a7dea9a8a8c195049ee2e6",
+    "destination": "application/phone_agent/config/apps_harmonyos.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0019",
+    "source_sha256": "0ab3840e73f21bb4f6a85fe54b74839578e16c93f00ca23ad7fc8eae081eae77",
+    "destination": "application/phone_agent/config/apps_ios.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0020",
+    "source_sha256": "9b2ee5945d5e9ea3e313dd257c80beddc3efda7ecc208e9d33e9d2fa53e1284c",
+    "destination": "application/phone_agent/config/fast_path_apps.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0021",
+    "source_sha256": "fb1f320f9cb0c8aef1c23a08fa9398a8f95278877f5bd2a456398a6b2af7ea6d",
+    "destination": "application/phone_agent/config/i18n.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0022",
+    "source_sha256": "e78ec332ef38f6729028bfcf3b44d6320bd2696ed0a3ff8357c1ecc767d4590e",
+    "destination": "application/phone_agent/config/prompts.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0023",
+    "source_sha256": "0b26bdaf203f06d73035972a7a66dae7609023ae233dea84f2a559aa222c41e5",
+    "destination": "application/phone_agent/config/prompts_en.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0024",
+    "source_sha256": "efab42c8528d8337497dcb2ec62f817aebc299e5da8bd8d378f3b55dd7e69564",
+    "destination": "application/phone_agent/config/prompts_zh.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0025",
+    "source_sha256": "50ba6296ac65d44ae43d92e7733453ff38847dd70dd7231e8215f8cf51dfdb48",
+    "destination": "application/phone_agent/config/route_prompt.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0026",
+    "source_sha256": "63b5d35967d6e2a981989b8cb299e6ac2b7495e6aede3a1f2dec58895739ba77",
+    "destination": "application/phone_agent/config/route_prompt_v1836_contract.json",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0027",
+    "source_sha256": "7cc4070909cd5d2d63bb015c42648177dbd286c37861342917117bce07e0ab7e",
+    "destination": "application/phone_agent/config/timing.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0028",
+    "source_sha256": "62a0da3d488899569b3735a6be2bcd6ba30969dd7c33ccfec19611b1f93dfcb5",
+    "destination": "application/phone_agent/device_factory.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0029",
+    "source_sha256": "0210b7514ba30fef411290b817520bb1e4dd4efa19512776936a8af20c5e15d2",
+    "destination": "application/phone_agent/experiment_logger.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0030",
+    "source_sha256": "7836411be81d2a533d62957cce0bd895d1c32ed03c960374053295d12b026b37",
+    "destination": "application/phone_agent/experiment_runtime.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0031",
+    "source_sha256": "2c3d58a8bd3968518fd6364a02a7f9d15bce426ce419c8bd5519457f4ed99435",
+    "destination": "application/phone_agent/fast_path.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0032",
+    "source_sha256": "e8e964eae8d7428bedce644b5e4e4c22a6f07dfc65792427a0762f08ee06d56c",
+    "destination": "application/phone_agent/hdc/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0033",
+    "source_sha256": "203f24809754df860bab231e972ebf45e45f2cf8ecbba8d9d8b8f9bc82cf530c",
+    "destination": "application/phone_agent/hdc/connection.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0034",
+    "source_sha256": "0d22dd55d30155ed8bcab31f3883df0cf66061b95266fab069874e0d47ed870c",
+    "destination": "application/phone_agent/hdc/device.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0035",
+    "source_sha256": "bab9f20727a20018e83f62e202a02ae03218febeba8a33701972c5df06244794",
+    "destination": "application/phone_agent/hdc/input.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0036",
+    "source_sha256": "547dc67d57ceda734ad25970e934fcfb10dbe427b66a5370f2b92cabcf8b824f",
+    "destination": "application/phone_agent/hdc/screenshot.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0037",
+    "source_sha256": "c3ac859256bd56852f5f9bd991359aed9e41839fe57c0f406a3acb8d9b1d2f6e",
+    "destination": "application/phone_agent/model/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0038",
+    "source_sha256": "7c1047fa5bfa033cd58c33d10a1ac27a59f699b356a8ed2d0df703c6c1e329a2",
+    "destination": "application/phone_agent/model/client.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0039",
+    "source_sha256": "c97c3aeaa17d76dbaff63693911c05f1ce0d7d47c9de7d5453fb36cf3c5f1756",
+    "destination": "application/phone_agent/runtime_health.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0040",
+    "source_sha256": "465653232a70a413c142b0a4711282957fed835a66c9f50d14d658828daecea5",
+    "destination": "application/phone_agent/runtime_policy.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0041",
+    "source_sha256": "e11b9698e89b9912d7b9dd043434d4c43a549f5a6d35a01d59b4acad0d3c3573",
+    "destination": "application/phone_agent/semantic_contract.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0042",
+    "source_sha256": "00a230a7a51fa1a35d0ef0ef780a7fbf98795103f153e3d04de7cca5f6b2ce3d",
+    "destination": "application/phone_agent/xctest/__init__.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0043",
+    "source_sha256": "43bf7511393c4cb8b689770b82ffa9b3ebbebb1aaa21814fb597d681f58aeeb0",
+    "destination": "application/phone_agent/xctest/connection.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0044",
+    "source_sha256": "507d8dbe3611d4ac3a5cff9a440ffc8b9127ddb37add493c90e6bd433277ab69",
+    "destination": "application/phone_agent/xctest/device.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0045",
+    "source_sha256": "7640dbe0e0f9ea11a5c5d343881b08342dccae8fb6bbd10645092065adcc2fe8",
+    "destination": "application/phone_agent/xctest/input.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0046",
+    "source_sha256": "224090a74088505f422f642c47cbf21e767cef1bb46ba2b37345160b9ff3b5d6",
+    "destination": "application/phone_agent/xctest/screenshot.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0047",
+    "source_sha256": "5f4b1af90a189a9fbacc32adc38b7a83d6bbbd18cc87ca0da5543515a747841b",
+    "destination": "application/scripts/check_deployment_cn.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0048",
+    "source_sha256": "770a54332f134c1ffc53aae5d0c2666b3d94d23b3cc4336f6236a4566d112d91",
+    "destination": "application/scripts/check_deployment_en.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0049",
+    "source_sha256": "c6f6e2e6bea2328cbbfec3172b2c4443cd7bdce59da418c4385a764fb0c55cea",
+    "destination": "application/scripts/export_merged_modelA.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0050",
+    "source_sha256": "c3f473c70019b887048b752cef834774a94762a101e4947ad6a5bff8b5002be1",
+    "destination": "application/scripts/modelA_artifact_utils.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0051",
+    "source_sha256": "9275430b1ca74b3438894d8294049e442c6d2c5ce7a297dc0721c6c06fc918a9",
+    "destination": "application/scripts/termux_execute_service.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0052",
+    "source_sha256": "c66145cd327a98860ba11981697f1b33e71a13b572a63e399f151d1fa3ddccc0",
+    "destination": "application/scripts/termux_llama_regression.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0053",
+    "source_sha256": "913578455d4e3bd4dd0d917fd94e7be521deb80f462fb2d043e9c3dd3b87cce6",
+    "destination": "application/scripts/termux_llama_regression_cases.json",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0054",
+    "source_sha256": "d524ec998f60dd28c0e4841a216b3f0f942c28262cb34b1e22af72b67b0d9dfe",
+    "destination": "application/scripts/termux_llama_route.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0055",
+    "source_sha256": "b154c03289ffeb4b27ed9602c5d9b5f6434dd4844544ee0ccfbc5b1c0a0a7bba",
+    "destination": "application/scripts/termux_llama_route_service.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0056",
+    "source_sha256": "db3c1fb13a8796b3c4e918379649557443fab87c4e984b488265867a17524229",
+    "destination": "application/scripts/termux_llama_route_worker/CMakeLists.txt",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0057",
+    "source_sha256": "52090a9cdf566303d0d0e8eb64beb0ebaa42390f406f5c482bc29a343f10acf2",
+    "destination": "application/scripts/termux_llama_route_worker.cpp",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0058",
+    "source_sha256": "bca17ddfc699e88b390bf8bd6b273f7b9c9df4caaec6b849bfe84e9fc7e5ba33",
+    "destination": "application/scripts/validate_modelA_artifact.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0059",
+    "source_sha256": "167de38cec8f7916480eb9ac208b465488354aa5177502307757b35b9e3234df",
+    "destination": "application/web_console/app.js",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0060",
+    "source_sha256": "a432dee2226c492c9e59d6a2eb697b71079368318cb895a26166de527d258052",
+    "destination": "application/web_console/index.html",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0061",
+    "source_sha256": "77b5c1aa991a70340d9e7392ab0b5c97bb824c725bcb496460bd026eced2d710",
+    "destination": "application/web_console/styles.css",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0062",
+    "source_sha256": "af69329b4667040c498cc87dfcc165db1f5f9452fe2ad3024ad7eef63d467666",
+    "destination": "application/LICENSE",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0063",
+    "source_sha256": "9f30193535a62ff811dacb15bf13a27b93480cd3828f95a30f408cedfd4d70a0",
+    "destination": "application/tests/test_adb_launch.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0064",
+    "source_sha256": "63414be99c5d63056cce831ff0aa18ac25004d167d25e391b6e92b78248d006a",
+    "destination": "application/tests/test_agent_keyboard_session.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0065",
+    "source_sha256": "a409ab6857e15cb7b488332a27083e3e173d8913316c196d3679838f2acafd9e",
+    "destination": "application/tests/test_experiment_logger.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0066",
+    "source_sha256": "53b635605087c73425565b4b8123f038269681d42637a2b25fe053e40b3944ae",
+    "destination": "application/tests/test_runtime_health.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0067",
+    "source_sha256": "75eb2da87617e5fb621fb67388bdc06a95b82d8ae9d76f8227e283beb5ff98bb",
+    "destination": "application/tests/test_runtime_policy.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0068",
+    "source_sha256": "fdba01d79d3cae117ac6c37c4abe3dab5718967eee2c605cc180bc02b4ed3860",
+    "destination": "application/tests/test_semantic_contract.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0069",
+    "source_sha256": "661faa30027d3b51a4438eb4f489b7b1b995fc8ea831411836583bf0ae26d80d",
+    "destination": "application/tests/test_fast_path_service.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0070",
+    "source_sha256": "7342719fb13a7bd976c830d13618092132fdf97fe18177537b7879af287009fa",
+    "destination": "application/tests/test_main_fast_path_backend.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0071",
+    "source_sha256": "ccd0a1cd7d4d9c275de7e4f8379537d1bb7ce35afa3ecd6dae9fbaf8d7689688",
+    "destination": "application/tests/test_main_keyboard_precheck.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0072",
+    "source_sha256": "50696ca2deb456886103a2390a64bbb665218ed7df6a71f099417a0ad312e940",
+    "destination": "application/tests/test_modela_prompt_sync.py",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0073",
+    "source_sha256": "35e2e86147717700100ff6cd2ba70de8b9475e12f543ac3a216dc4dbed71ed14",
+    "destination": "data/fourlayer_slots.jsonl",
+    "operation": "allowlisted numeric/categorical fields, device group only"
+  },
+  {
+    "source_id": "LEGACY0074",
+    "source_sha256": "c5a20e9ce0622fab5732c0d0cbc934a23c021d73480dcf9c0aff0e5da9569bfd",
+    "destination": "data/fourlayer_slots.jsonl",
+    "operation": "allowlisted numeric/categorical fields, device group only"
+  },
+  {
+    "source_id": "LEGACY0075",
+    "source_sha256": "e9f448300c8a24515930450f556e107d462572aea4a8c3954708a64c70992ed8",
+    "destination": "data/fourlayer_slots.jsonl",
+    "operation": "allowlisted numeric/categorical fields, device group only"
+  },
+  {
+    "source_id": "LEGACY0076",
+    "source_sha256": "a8c120cc488ce53d05e436869cc3557ad80318eb3a593d9267b9fa19a49f649e",
+    "destination": "data/energy_pairs.csv",
+    "operation": "CSV field export; removed source"
+  },
+  {
+    "source_id": "LEGACY0077",
+    "source_sha256": "551af590543f357b02b18374136e0839296590c13c2b6bd716ce438da7b86cd6",
+    "destination": "data/energy_source_checks.csv",
+    "operation": "CSV unchanged values"
+  },
+  {
+    "source_id": "LEGACY0078",
+    "source_sha256": "3c25e5db5eccb2b09064f326f602d242de8a656532602995fb9f69f250049ee1",
+    "destination": "data/window_replay_cells.csv",
+    "operation": "CSV unchanged values"
+  },
+  {
+    "source_id": "LEGACY0079",
+    "source_sha256": "b038005e1cee849730d844caef9079167b0ceabe13d5708b5375b03d6577335d",
+    "destination": "data/terminal_slots.csv",
+    "operation": "CSV field export; removed source_attempt"
+  },
+  {
+    "source_id": "LEGACY0080",
+    "source_sha256": "057b2bd1641ad57cea2d5960d2e968660020b99ee8850d2f8448aaa863ae897c",
+    "destination": "data/historical_mixed_SEPARATE.csv",
+    "operation": "CSV field export; removed source"
+  },
+  {
+    "source_id": "LEGACY0081",
+    "source_sha256": "32a5a35784d23bd4fb01d9e0a130bc24f37a40e7439134cc42b56cb2327daab8",
+    "destination": "data/historical_high_mixed_points.csv",
+    "operation": "CSV unchanged values"
+  },
+  {
+    "source_id": "LEGACY0082",
+    "source_sha256": "42e2a03d1df9270ced327aa6b6cda6e6936e0587ca88f223a4043ed686bfc22a",
+    "destination": "data/excluded_slots.csv",
+    "operation": "CSV field export; removed adjudicated_utc, reason_zh, source"
+  },
+  {
+    "source_id": "LEGACY0083",
+    "source_sha256": "2c80f3dd221d630570987aaef9fec73673ab4c4e48bb170ce463bc69dd2f6801",
+    "destination": "expected/A_denominators.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0084",
+    "source_sha256": "695b7526843a8211c610f88bf6551567b4ad4f5cb73939ccfaf2f8defd9fdb8b",
+    "destination": "expected/A_success_boundaries.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0085",
+    "source_sha256": "2f9acf2cdd30a05b4299a3d33a59f50e4c1f316eb57cc87ab9724094b0771668",
+    "destination": "expected/A_common_judgeable.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0086",
+    "source_sha256": "1c86ddb5beb684db14bc38d83ef34a5b47818ea4e8017e6488cc15c7b8349816",
+    "destination": "expected/B_energy_mean_t_ci.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0087",
+    "source_sha256": "db5d6fa3fd827bb991dc360bd4b964c15d00716e23bb23744380da77deae546d",
+    "destination": "expected/B_energy_difference_welch_ci.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0088",
+    "source_sha256": "09904a529be11eeffde1c058b25c690850a3d4b93a2745cca832faee2a8ee738",
+    "destination": "expected/C_category_cost_differences.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0089",
+    "source_sha256": "c137feaf66e39074855d4b7a06337d5b8407bb2f988589571361ef7883929c9d",
+    "destination": "expected/C_mixture_25_50_75.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0090",
+    "source_sha256": "d636139d9c89b8d289d4340f624a8b34c04e81543ee58f0c70a100516248a968",
+    "destination": "expected/C_conditional_zero_crossings.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0091",
+    "source_sha256": "f276908be3904092552fa207ebbb65d6088ba11f49a1053374de6febb81c1ee1",
+    "destination": "expected/D_reaggregated_36_summaries.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0092",
+    "source_sha256": "426ef62df2c91e3b1161b2f60b3f5af25fab1e6bca2ef63dfb1c77cb904d6e08",
+    "destination": "expected/D_percentile_exit_spike.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0093",
+    "source_sha256": "2b5fc8f7cb5c6903249d0914b51085eaf93db2089dbdae009aff42f5a1b1916e",
+    "destination": "expected/E_budget_exceedance.csv",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0094",
+    "source_sha256": "76a8e93fbdda6122e6e383efbce8f99c8018fd8a17ffbfa22119506739999e20",
+    "destination": "data/saved_router_predictions.jsonl",
+    "operation": "consumed synthetic inputs and saved raw outputs; no generation, no training data"
+  },
+  {
+    "source_id": "LEGACY0095",
+    "source_sha256": "b7686588bc728ac14df9df5fd7f26b41a25453e9b74f0aab1203e0898cba7040",
+    "destination": "expected/main_app_replay_summary.json",
+    "operation": "byte-identical copy"
+  },
+  {
+    "source_id": "LEGACY0096",
+    "source_sha256": "18b16d11a749fcb5555a94735a9257ece542269f3c531aa0c1e260973129892b",
+    "destination": "data/router_call_latency.csv",
+    "operation": "matched 83 slots per device; removed local source paths"
+  },
+  {
+    "source_id": "LEGACY0097",
+    "source_sha256": "6b68d43e6ad062c2468f24e6581673c97a98a5f7aa53e05e3815523746e635d8",
+    "destination": "analysis/_existing_statistics.py",
+    "operation": "unchanged function extraction: csvout, mean_ci, welch, mixtures"
+  },
+  {
+    "source_id": "LEGACY0098",
+    "source_sha256": "0196bff7ad5b521f058b0f3b82e9d1a871f1d7c2d86d8567496059b17a4b021b",
+    "destination": "analysis/_router_metrics.py",
+    "operation": "unchanged function extraction: scores, boot_metric, interval"
+  }
+]

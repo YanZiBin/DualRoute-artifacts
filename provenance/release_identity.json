@@ -1,0 +1,48 @@
+{
+  "status": "LOCAL_REVIEW_COPY_NOT_PUBLISHED",
+  "research_core_identity": {
+    "phone_agent/fast_path.py": {
+      "sha256": "2c3d58a8bd3968518fd6364a02a7f9d15bce426ce419c8bd5519457f4ed99435",
+      "current_equals_frozen_history": true,
+      "ast_equal": true
+    },
+    "phone_agent/config/fast_path_apps.py": {
+      "sha256": "9b2ee5945d5e9ea3e313dd257c80beddc3efda7ecc208e9d33e9d2fa53e1284c",
+      "current_equals_frozen_history": true,
+      "ast_equal": true
+    },
+    "phone_agent/semantic_contract.py": {
+      "sha256": "e11b9698e89b9912d7b9dd043434d4c43a549f5a6d35a01d59b4acad0d3c3573",
+      "current_equals_frozen_history": true,
+      "ast_equal": true
+    },
+    "phone_agent/config/route_prompt.py": {
+      "sha256": "50ba6296ac65d44ae43d92e7733453ff38847dd70dd7231e8215f8cf51dfdb48",
+      "current_equals_frozen_history": true,
+      "ast_equal": true
+    }
+  },
+  "release_core_identity": {
+    "phone_agent/fast_path.py": {
+      "sha256": "6e6ee0897538cc3745bb60fc8959a4cd82c83d5204dd17cc3cd754bf4898911c"
+    },
+    "phone_agent/config/fast_path_apps.py": {
+      "sha256": "338d8012e9611543f5b15b4ffbc57d670556713f244f9d50bd5157ebfa06c416"
+    },
+    "phone_agent/semantic_contract.py": {
+      "sha256": "676ec0110901c8ad168bf781337cbd1f08be18d972158ccc18f86cb26fec9f25"
+    },
+    "phone_agent/config/route_prompt.py": {
+      "sha256": "8e71319b33e64e4252ff21de8ce53a248b736a7a8f155aef92a41d0397dfc0e3"
+    }
+  },
+  "parser_guard_methods_ast_equal": true,
+  "parser_guard_method_count": 37,
+  "legacy_numeric_module_ast_equal": [
+    "analysis/_existing_statistics.py",
+    "analysis/_router_metrics.py"
+  ],
+  "mobile_numeric_module_ast_equal": true,
+  "private_prompt_text_bundled": false,
+  "note": "Research hashes identify withheld/original source. Release hashes identify the packaging-adjusted files. AST equality is static evidence only; actual verification is recorded separately."
+}
